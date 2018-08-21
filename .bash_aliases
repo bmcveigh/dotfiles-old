@@ -1,7 +1,3 @@
-#!/bin/bash
-# .alias
-alias gohome='cd ~/www'
-alias ..='cd ..'
 # Make some possibly destructive commands more interactive.
 alias rm='rm -i'
 alias mv='mv -i'
@@ -16,5 +12,14 @@ alias ls='ls -F'
 # and exclude grepping through .svn folders.
 alias grep='grep -G --exclude-dir=\.svn --exclude-dir=\.git'
 
-#mysql
-alias startmysql='sudo /usr/local/mysql/support-files/mysql.server start'
+# Git aliases
+alias gitup="git up; gitb -vv"
+alias gits="git status"
+alias gitb="git branch"
+alias gitf="git fetch origin --prune"
+alias gitl="git log"
+alias gitco="git checkout "
+alias gitmx="git merge --no-ff --no-commit "
+alias gitm="git merge --no-ff "
+alias gitpu="git push origin "
+alias gita="git add "
