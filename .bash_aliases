@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Make some possibly destructive commands more interactive.
 alias rm='rm -i'
 alias mv='mv -i'
@@ -22,4 +24,5 @@ alias gitco="git checkout "
 alias gitmx="git merge --no-ff --no-commit "
 alias gitm="git merge --no-ff "
 alias gitpu="git push origin "
+alias gitpl="git pull origin "
 alias gita="git add "
