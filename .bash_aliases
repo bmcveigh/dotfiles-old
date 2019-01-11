@@ -32,11 +32,13 @@ alias gitm="git merge --no-ff "
 alias gitpu="git push origin "
 alias gitpl="git pull origin "
 alias gita="git add "
+# Remove all merged branches locally.
+alias gitbdm="git branch | grep -v \"master\" | xargs git branch -d"
 
 # Composer
 alias composer="php -d memory-limit=-1 /usr/local/bin/composer"
-alias composerr="composer require"
-alias composeri="composer install"
+alias compor="composer require"
+alias compi="composer install"
 
 # Vagrant
 alias vu="vagrant up"
