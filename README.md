@@ -10,7 +10,7 @@ Provides private Unix files for a local environment setup. Please note that this
 | File                 | Description                                  |
 | -------------------- | -------------------------------------------- |
 | **.bash_aliases**    | Adds aliases for tools like git and vagrant. |
-| **.bash_profile**    | Loads .bashrc file and sets path variables.  |
+| **.bash_profile**    | Contains custom logic such as functions.     |
 | **.bashrc**          | Adds color-coding to the CLI.                |
 
 #### Where should I put all these files?
